@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="cossacs" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Козацькі розваги</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="font/fonts.css" />
+    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+    />
+    <!--load all styles Font Awesome-->
+  </head>
+  <body>
+    <!-- розміщення з початку body  JS необхідне для коректної роботи svg анімації -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/lottie.js"></script>
+    <!-- /JS=========================================== -->
+    <div class="page-container">
+      <header class="header">
+        <!-- Header content -->
+        <div class="wrapper">
+          <section class="header-line">
+            <div class="header-logo">
+              <a href="#"><img src="images/logo1.svg" alt="logotype" /></a>
+            </div>
+            <nav class="header-menu">
+              <ul class="menu-list">
+                <li><a href="#">Домашня</a></li>
+                <li><a href="#">Події</a></li>
+                <li><a href="#">Про нас</a></li>
+                <li><a href="#">Статті</a></li>
+                <li><a href="#">Контакти</a></li>
+              </ul>
+            </nav>
+          </section>
+        </div>
+        <!-- Mobile version ----------------------------------->
+        <section class="header-mobile">
+          <div class="header-logo">
+            <a href="#"><img src="images/logo1.svg" alt="images" /></a>
+          </div>
+          <!-- menu burger ========== -->
+          <nav class="header-menu">
+            <div class="mobile-wrapper">
+              <div class="mobile-menu"></div>
+            </div>
+            <div class="wrapper">
+              <ul class="mobile-list">
+                <li class="mobile-list__item">
+                  <a href="#">домашня</a>
+                </li>
+                <li class="mobile-list__item">
+                  <a href="#about">події</a>
+                </li>
+                <li class="mobile-list__item">
+                  <a href="#services">про нас</a>
+                </li>
+                <li class="mobile-list__item">
+                  <a href="#team">статті</a>
+                </li>
+                <li class="mobile-list__item">
+                  <a href="#testimonials">контакти</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </section>
+        <!-- slider for background ----------------- -->
+        <div class="header-slider">
+          <div
+            class="eachsliderimage"
+            style="background-image: url('images/slide-1.JPG')"
+          ></div>
+          <div
+            class="eachsliderimage"
+            style="background-image: url('images/slide-6.jpg')"
+          ></div>
+          <div
+            class="eachsliderimage"
+            style="background-image: url('images/slide-5.jpg')"
+          ></div>
+        </div>
+        <!-- end slider --------------------------- -->
+        <!-- animation ---------------------------- -->
+        <div class="header-animation" id="header-animation"></div>
+        <!-- з незрозумілих причин, JS не підтягує клас getElementByClassName, а працює тільки з ID... -->
+        <!-- /animation ---------------------- -->
+      </header>
+      <main class="main">
+        <div class="wrapper">
+          <div class="main-block corection">
+            <p>
+              І тільки незмінними залишались захисники України славетні воїни
+              козаки-бійці Збройних Сил України, а з ними у нас і залишилися і
+              їхні традиції введення бойових дій і звичайно відпочинку. Життя на
+              порубіжні лесу і степу, Європейської і Азіатської цивілізацій
+              вимагало від воїнів України перебування у постійному тонусі і
+              готовності протистояти будь-якому ворогу. Цей психофізичний тонус
+              набувався і підтримувався різноманітними козацькими розвагами і
+              забавами, що ними завжди славився український народ. І ми
+              –ветерани АТО і ООС, нашадки славетніх воїнов – козаків, щоб
+              пригадати здобутки предків та дорівнятися до них своїми
+              досягненнями, осучаснити традиції козацтва, вирішили провести
+              серію міні-турнірів з автомодельного спорту – «КОЗАЦЬКІ розваги»,
+              між збірною дітей і збірною ветеранів АТО, ООС міста Покровськ і
+              Покровського району.
+            </p>
+          </div>
+          <section class="main-video">
+            <iframe
+              width="100%"
+              height="600"
+              src="https://www.youtube.com/embed/JT7EZrHn5CQ"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </section>
+          <section class="main-photo">
+            <div class="main-photo__selected" id="main-photo__selected">
+              <img
+                class="minimized"
+                src="images/IMG-1b6200131bd82be4ccc7c91107d50179-V.jpg"
+                alt="img"
+              />
+              <img
+                class="minimized"
+                src="images/IMG-1e3350de47d5509e884c981cf1a252fc-V.jpg"
+                alt="img"
+              />
+              <img
+                class="minimized"
+                src="images/IMG-7ed3aeb88b2f29adf1c23d7ca58b2347-V.jpg"
+                alt="img"
+              />
+              <img
+                class="minimized"
+                src="images/IMG-5975c3c452f98eb960edab2d029e5d1e-V.jpg"
+                alt="img"
+              />
+              <img
+                class="minimized"
+                src="images/IMG-e90c808566e971a3b02949697521699a-V.jpg"
+                alt="img"
+              />
+              <img class="minimized" src="images/P80127-155355.jpg" alt="img" />
+            </div>
+          </section>
+          <div class="main-block">
+            <p>
+              Серія міні-турнірув будуть проводиться у декілька етапів,
+              присвяченних видатним датам Українського народа :14 жовтня-День
+              Українського козацтва, 6 грудня- День Збройних Сил України, 14
+              березня – День Українського добровольця. Взяти участь в турнірі, в
+              складі збірної ветеранів АТО, ООС ) може будь який ветеран
+              російсько-української війни. Для збірної ветерані попередньо буде
+              проведене коротке навчання і тренування.Для участі в турнірі в
+              складі команди дітей потрібно відвідувати, бути записаним, гурток
+              автомодельного спорту при «Станції юних техників» міста Покровськ.
+              Організатор змагань «Покровська міська організація ветеранів та
+              інвалідів учасників АТО в Донецькій області» разом з позашкільним
+              навчальним закладом «Станція юних техників відділу освіти
+              Покровської міської ради Донецької області». При тпідтримці
+              Відділу культури, туризму та охорони культурної спадщини.
+              управлінню молоді і спорту Покровської міської влади.
+            </p>
+          </div>
+        </div>
+        <section class="main-slider">
+          <div class="main-slider__selected">
+            <img class="slider__img" src="images/slide-5.jpg" alt="img" />
+            <img class="slider__img" src="images/slide-1.JPG" alt="img" />
+            <img class="slider__img" src="images/slide-2.jpg" alt="img" />
+            <img class="slider__img" src="images/slide-3.jpg" alt="img" />
+            <img class="slider__img" src="images/slide-4.jpg" alt="img" />
+          </div>
+        </section>
+        <section class="holiday">
+          <div class="wrapper">
+            <div class="holiday-content">
+              <img src="images/cossacks_day.jpg" alt="img" />
+              <p>
+                14 жовтня українці святкують одразу три свята. Перше – Свято
+                Покрови Божої Матері, друге – День українського козацтва, третє
+                свято, дуже молоде – День захисника України. Усі ці свята дуже
+                взаємопов’язані і виникали послідовно 14 жовтня православні
+                християни святкують день Покрови Пресвятої Богородиці. У народі
+                говорять: «Покрова накриває траву листям, землю снігом, воду –
+                льодом, а дівчат – шлюбним вінцем». Це свято вважається одним із
+                найбільш шанованих свят в Україні. Не виникає навіть суперечок
+                між православними українцями й рідновірами, котрі хоч і
+                вкладають у це свято зовсім різний зміст, ставляться до нього
+                дуже шанобливо. Зі святом Покрови співпадає святкування Дня
+                українського козацтва. З давніх-давен Божа Матір вважалася
+                покровителькою усього українського козацтва. А на Січі
+                запорозькі козаки збудували церкву на честь Покрова Богородиці з
+                її іконою. І. до речі, саме у цей день, козаки збирали Велику
+                раду, на котрій обирали гетьмана й визначалися з подальшими
+                військовими планами. Відомий український етнограф Олекса Воропай
+                писав, що після зруйнування Катериною ІІ Запорозької Січі,
+                козаки, ідучи за Дунай, несли з собою ікону Покрови Пресвятої
+                Богородиці Цікаво, що козаки настільки глибоко й щиро шанували
+                образ Покрови Божої Матері, вірили у її силу й урочисто
+                святкували цей день, що у народі закріпилася й друга назва свята
+                – Козацька Покрова. Певно, не знайдеться в Україні людини, яка б
+                не знала про козаків. Про них складено безліч творів, книжок і
+                фільмів. Про козацький рід співається й у нашому державному
+                гімні. Образ сміливого парубка, котрий захищає честь та волю
+                нашого народу, міцно закарбувався у пам’яті поколінь. Тож, козак
+                в українській культурі – звитяжний воїн, озброєний захисник
+                Вітчизни, що боронить віру, гідність та звичаї усього нашого
+                народу. Друга спроба вибороти незалежність українського народу й
+                держави здійснювалася у тяжкі 1917-1920 роки. Третя – уже в наш
+                час – під час розпаду радянської імперії, коли прокинувся
+                волелюбний інтерес до власної історії й генетичної пам'яті.
+                Четверта хвиля цього інтересу, – напевно, сьогоднішня. Адже, з
+                2015 року 14 жовтня є державним святом і неробочим днем – Днем
+                захисника України.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="testimonials">
+          <div class="wrapper">
+            <h2 class="testimonials-head" id="testimonials">відгуки</h2>
+            <p>Що про нас кажуть</p>
+            <div class="testimonials-slider">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+                incidunt magni fugit perferendis, quaerat deleniti aspernatur
+                soluta facere modi unde eos molestias omnis numquam hic beatae
+                dolor maxime voluptas accusantium.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+                incidunt magni fugit perferendis, quaerat deleniti aspernatur
+                soluta facere modi unde eos molestias omnis numquam hic beatae
+                dolor maxime voluptas accusantium.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+                incidunt magni fugit perferendis, quaerat deleniti aspernatur
+                soluta facere modi unde eos molestias omnis numquam hic beatae
+                dolor maxime voluptas accusantium.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+                incidunt magni fugit perferendis, quaerat deleniti aspernatur
+                soluta facere modi unde eos molestias omnis numquam hic beatae
+                dolor maxime voluptas accusantium.
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer" id="contacts">
+        <section class="contacts">
+          <div class="wrapper">
+            <div class="contacts-conteiner">
+              <div class="contacts-block">
+                <h4 class="contacts-block__header">Швидкі Посилання</h4>
+                <ul class="contacts-links">
+                  <li><a href="#">Часті запитання</a></li>
+                  <li><a href="#">link 2</a></li>
+                  <li><a href="#">link 3</a></li>
+                  <li><a href="#">link 4</a></li>
+                  <li><a href="#">Зв'яжіться з нами</a></li>
+                </ul>
+                <h4 class="contacts-block__social">Наші соцмережі</h4>
+                <div class="contacts-social">
+                  <a href="#">
+                    <img src="images/facebook.svg" alt="img" />
+                  </a>
+                  <a href="#">
+                    <img src="images/youtube-square-brands.svg" alt="img" />
+                  </a>
+                </div>
+              </div>
+              <div class="contacts-block">
+                <h4 class="contacts-block__header">Статті</h4>
+                <div class="contacts-block__posts">
+                  <img src="images/volunteer.jpg" alt="img" />
+                  <a href="#">День Українського добровольця</a>
+                </div>
+                <div class="contacts-block__posts">
+                  <img src="images/armed.jpg" alt="img" />
+                  <a href="#">День Збройних Сил України</a>
+                </div>
+                <div class="contacts-block__posts">
+                  <img src="images/pocrovajpg.jpg" alt="img" />
+                  <a href="#">День Українського козацтва</a>
+                </div>
+                <div class="contacts-block__posts">
+                  <img src="images/independense.jpg" alt="img" />
+                  <a href="#">День Незалежності України</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="footer-copyright">
+          <p>Copyright © 2020 Mykhailo Pylka.</p>
+        </div>
+      </footer>
+    </div>
+    <!-- JS========================= -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- =========================== -->
+  </body>
+</html>
