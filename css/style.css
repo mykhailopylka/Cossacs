@@ -719,6 +719,14 @@ ul {
     max-width: 10rem;
     width: 100%;
   }
+  /* testimonials font size */
+  .testimonials-head {
+    margin-top: 1rem;
+  }
+  .testimonials-slider {
+    font-size: 0.5rem;
+    padding-bottom: 2rem;
+  }
 }
 @media screen and (max-width: 360px) {
   /* burger button padding ------- */
