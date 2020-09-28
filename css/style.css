@@ -93,6 +93,7 @@ ul {
 
 /*  sliders background --------------------*/
 .header-slider {
+  position: relative;
   max-width: 99vw;
   overflow: hidden;
 }
@@ -108,7 +109,9 @@ ul {
   position: absolute;
   z-index: 10000;
   width: 45rem;
-  margin: -35rem auto 0;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 /* /slider ------------------------------------- */
 /* /conteiner for slider ------------------------------- */
@@ -117,9 +120,6 @@ ul {
 .main-block {
   margin: 80px auto;
   width: 80%;
-}
-.corection {
-  margin-top: 12rem;
 }
 /* video -----------------------------------*/
 .main-video {
@@ -474,6 +474,9 @@ ul {
   .header-mobile {
     padding-right: 1rem;
   }
+  .header-animation {
+    top: 30%;
+  }
   /* mobile ----------------------------- */
   .header-mobile {
     display: block;
@@ -568,9 +571,6 @@ ul {
   .main-block {
     margin: 0 auto 3rem;
   }
-  .corection {
-    margin-top: 10rem;
-  }
   /* testimonials---------------- */
   .testimonials-slider {
     max-width: 40rem;
@@ -607,14 +607,10 @@ ul {
   /* animation size -------------- */
   .header-animation {
     width: 35rem;
-    margin: -25rem auto 0;
   }
   /* main-block margin ----------- */
   .main-block {
     margin-top: 0;
-  }
-  .corection {
-    margin-top: 7rem;
   }
   /* main-video -------------------- */
   .main-video iframe {
@@ -641,13 +637,10 @@ ul {
   .eachsliderimage {
     height: 20rem;
   }
-  .corection {
-    margin-top: 3rem;
-  }
   /* animation size -------------- */
   .header-animation {
     width: 25rem;
-    margin: -16rem auto 0;
+    top: 20%;
   }
   /* main-video -------------------- */
   .main-video iframe {
@@ -668,9 +661,6 @@ ul {
   /* burger button padding ------- */
   .header-mobile {
     padding-right: 2rem;
-  }
-  .corection {
-    margin-top: 5rem;
   }
   /* animation size -------------- */
   .header-animation {
@@ -718,11 +708,7 @@ ul {
   /* animation size -------------- */
   .header-animation {
     width: 20rem;
-    margin: -13rem auto 0;
-  }
-  /* main-block margin ----------- */
-  .corection {
-    margin-top: 2rem;
+    top: 15%;
   }
   /* main-slider ------------------- */
   .main-slider {
@@ -764,9 +750,5 @@ ul {
   /* animation size -------------- */
   .header-animation {
     width: 15rem;
-  }
-  /* main-block margin ----------- */
-  .corection {
-    margin-top: 4.5rem;
   }
 }
