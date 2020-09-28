@@ -56,7 +56,7 @@ ul {
 /* HEADER================================== */
 .header {
   background-color: #f7f7f7;
-  margin-bottom: 10rem;
+  /* margin-bottom: 10rem; */
 }
 .header-line {
   display: flex;
@@ -117,6 +117,9 @@ ul {
 .main-block {
   margin: 80px auto;
   width: 80%;
+}
+.corection {
+  margin-top: 12rem;
 }
 /* video -----------------------------------*/
 .main-video {
@@ -565,6 +568,9 @@ ul {
   .main-block {
     margin: 0 auto 3rem;
   }
+  .corection {
+    margin-top: 10rem;
+  }
   /* testimonials---------------- */
   .testimonials-slider {
     max-width: 40rem;
@@ -608,7 +614,7 @@ ul {
     margin-top: 0;
   }
   .corection {
-    margin-top: -5rem;
+    margin-top: 7rem;
   }
   /* main-video -------------------- */
   .main-video iframe {
@@ -635,6 +641,9 @@ ul {
   .eachsliderimage {
     height: 20rem;
   }
+  .corection {
+    margin-top: 3rem;
+  }
   /* animation size -------------- */
   .header-animation {
     width: 25rem;
@@ -659,6 +668,9 @@ ul {
   /* burger button padding ------- */
   .header-mobile {
     padding-right: 2rem;
+  }
+  .corection {
+    margin-top: 5rem;
   }
   /* animation size -------------- */
   .header-animation {
@@ -710,7 +722,7 @@ ul {
   }
   /* main-block margin ----------- */
   .corection {
-    margin-top: -7rem;
+    margin-top: 2rem;
   }
   /* main-slider ------------------- */
   .main-slider {
@@ -755,6 +767,6 @@ ul {
   }
   /* main-block margin ----------- */
   .corection {
-    margin-top: -5rem;
+    margin-top: 4.5rem;
   }
 }
