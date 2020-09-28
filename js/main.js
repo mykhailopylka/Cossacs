@@ -48,7 +48,7 @@ $(document).ready(function () {
   });
 });
 // ===========================================================
-// анімація lotti
+// lotti's animation
 var elem = document.getElementById("header-animation");
 var animData = {
   container: elem,
@@ -58,6 +58,18 @@ var animData = {
   path: "../js/cossacs_1.json",
 };
 anim = lottie.loadAnimation(animData);
+
+// анімація lotti
+var elem = document.getElementById("main-invitation__svgContainer");
+var animData = {
+  container: elem,
+  renderer: "svg",
+  loop: false,
+  autoplay: true,
+  path: "../js/TextAnimation_1.json",
+};
+anim = lottie.loadAnimation(animData);
+
 // ============================================================
 // Збільшення фото при наведенні
 $(function () {

@@ -447,6 +447,11 @@ ul {
   background-color: #bfbfbf;
 }
 /* MEDIA ==================================================== */
+@media screen and (max-width: 1200px) {
+  .header-menu {
+    padding-right: 2rem;
+  }
+}
 /* 1024------------------------------------- */
 @media screen and (max-width: 1025px) {
   .wrapper {
@@ -467,7 +472,7 @@ ul {
   .header-line {
     display: none;
   }
-  .header-menu {
+  .header-mobile__menu {
     margin-top: -7rem;
     width: 100%;
     color: #000;
@@ -664,6 +669,9 @@ ul {
 }
 
 @media screen and (max-width: 450px) {
+  body {
+    font-size: 0.7rem;
+  }
   /* main-video -------------------- */
   .main-video iframe {
     width: 350px;
@@ -715,9 +723,22 @@ ul {
 @media screen and (max-width: 360px) {
   /* burger button padding ------- */
   .header-mobile {
-    padding-right: 5rem;
+    padding-right: 3.5rem;
   }
   .wrapper {
-    padding: 0 1rem;
+    padding: 0 0.5rem;
+  }
+  .holiday-content p {
+    margin-right: 1rem;
+  }
+}
+@media screen and (max-width: 340px) {
+  /* animation size -------------- */
+  .header-animation {
+    width: 15rem;
+  }
+  /* main-block margin ----------- */
+  .corection {
+    margin-top: -5rem;
   }
 }
