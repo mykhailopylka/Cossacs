@@ -15,7 +15,7 @@ body {
   font-weight: 400;
   font-family: "lato";
   color: #808080;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 .page-container {
   display: grid;
@@ -676,6 +676,10 @@ ul {
 }
 
 @media screen and (max-width: 405px) {
+  /* header logo img ------------- */
+  .header-logo img {
+    width: 12rem;
+  }
   /* burger button padding ------- */
   .header-mobile {
     padding-right: 3rem;
@@ -706,5 +710,14 @@ ul {
   .minimized {
     max-width: 10rem;
     width: 100%;
+  }
+}
+@media screen and (max-width: 360px) {
+  /* burger button padding ------- */
+  .header-mobile {
+    padding-right: 5rem;
+  }
+  .wrapper {
+    padding: 0 1rem;
   }
 }
