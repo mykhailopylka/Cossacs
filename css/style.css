@@ -93,7 +93,7 @@ ul {
 
 /*  sliders background --------------------*/
 .header-slider {
-  position: relative;
+  /* position: relative; */
   max-width: 99vw;
   overflow: hidden;
 }
@@ -107,9 +107,9 @@ ul {
 /* animation -------------------------------- */
 .header-animation {
   position: absolute;
-  z-index: 10000;
+  z-index: 2;
   width: 45rem;
-  top: 40%;
+  margin-top: -35rem;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -475,7 +475,7 @@ ul {
     padding-right: 1rem;
   }
   .header-animation {
-    top: 30%;
+    /* top: 30%; */
   }
   /* mobile ----------------------------- */
   .header-mobile {
@@ -559,6 +559,10 @@ ul {
     top: 0;
     transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
   }
+  /* зміщення анімації відносно мобільного меню */
+  /* .mobile-menu-active .header-animation {
+    top: 80%;
+  } */
   /* header-slider----------------- */
   .header-slider {
     margin-top: 1rem;
@@ -607,6 +611,7 @@ ul {
   /* animation size -------------- */
   .header-animation {
     width: 35rem;
+    margin-top: -25rem;
   }
   /* main-block margin ----------- */
   .main-block {
@@ -640,7 +645,7 @@ ul {
   /* animation size -------------- */
   .header-animation {
     width: 25rem;
-    top: 20%;
+    margin-top: -18rem;
   }
   /* main-video -------------------- */
   .main-video iframe {
@@ -708,7 +713,7 @@ ul {
   /* animation size -------------- */
   .header-animation {
     width: 20rem;
-    top: 15%;
+    margin-top: -15rem;
   }
   /* main-slider ------------------- */
   .main-slider {
