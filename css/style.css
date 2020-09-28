@@ -103,10 +103,9 @@ ul {
   background-repeat: no-repeat;
   filter: brightness(60%);
 }
-
 /* animation -------------------------------- */
 .header-animation {
-  z-index: 1000;
+  z-index: 10000;
   width: 45rem;
   margin: -35rem auto 0;
 }
