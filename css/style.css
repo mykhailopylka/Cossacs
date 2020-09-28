@@ -755,5 +755,6 @@ ul {
   /* animation size -------------- */
   .header-animation {
     width: 15rem;
+    margin-top: -12rem;
   }
 }
