@@ -106,7 +106,7 @@ ul {
 
 /* animation -------------------------------- */
 .header-animation {
-  z-index: 2;
+  z-index: 1000;
   width: 45rem;
   margin: -35rem auto 0;
 }
