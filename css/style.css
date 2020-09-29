@@ -73,6 +73,7 @@ ul {
   width: 15rem;
   height: 6rem;
 }
+/* menu ------------------------------------ */
 .menu-list {
   display: flex;
   justify-content: center;
@@ -169,7 +170,7 @@ ul {
 }
 /* video -----------------------------------*/
 .main-video {
-  margin: -1rem auto;
+  margin: -1rem auto 2rem;
 }
 .main-video embed {
   width: 100%;
@@ -179,7 +180,7 @@ ul {
 /* photo --------------------------------- */
 .main-photo {
   max-width: 1000px;
-  margin: 80px auto 0;
+  margin: 40px auto 40px;
 }
 .main-photo__selected {
   /* display: flex;
