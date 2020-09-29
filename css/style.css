@@ -39,7 +39,11 @@ main {
 footer {
   grid-area: footer;
 }
-
+h1 {
+  /* font-family: "cera"; */
+  font-family: "academia";
+  font-size: 5rem;
+}
 a {
   display: inline-block;
   text-decoration: none;
@@ -106,12 +110,54 @@ ul {
 }
 /* animation -------------------------------- */
 .header-animation {
-  position: absolute;
+  position: relative;
   z-index: 2;
   width: 45rem;
   margin-top: -35rem;
   left: 50%;
   transform: translateX(-50%);
+}
+/* заміна анімації до моменту вирішення всіх проблем.... */
+.typewriter {
+  position: absolute;
+  z-index: 2;
+  width: 33rem;
+  height: 10%;
+  margin-top: -30rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.typewriter h1 {
+  height: 4.5rem;
+  padding-top: 1rem;
+  color: #fff;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  /* border-right: 0.15em solid orange; The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  /* letter-spacing: 0.15em; Adjust as needed */
+  animation: typing 3.5s steps(30, end);
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
 }
 /* /slider ------------------------------------- */
 /* /conteiner for slider ------------------------------- */
@@ -125,7 +171,7 @@ ul {
 .main-video {
   margin: -1rem auto;
 }
-.main-video iframe {
+.main-video embed {
   width: 100%;
   height: 600px;
 }
@@ -474,8 +520,9 @@ ul {
   .header-mobile {
     padding-right: 1rem;
   }
-  .header-animation {
-    /* top: 30%; */
+  /* animation -------------------------- */
+  .typewriter {
+    margin-top: -25rem;
   }
   /* mobile ----------------------------- */
   .header-mobile {
@@ -604,6 +651,9 @@ ul {
     font-size: 14px;
     line-height: 20px;
   }
+  h1 {
+    font-size: 4rem;
+  }
   /* header slider size ------------------ */
   .eachsliderimage {
     height: 30rem;
@@ -613,12 +663,16 @@ ul {
     width: 35rem;
     margin-top: -25rem;
   }
+  .typewriter {
+    margin-top: -18rem;
+    width: 27rem;
+  }
   /* main-block margin ----------- */
   .main-block {
     margin-top: 0;
   }
   /* main-video -------------------- */
-  .main-video iframe {
+  .main-video embed {
     /* width: 500px; */
     height: 300px;
     margin: 0 auto;
@@ -647,8 +701,15 @@ ul {
     width: 25rem;
     margin-top: -18rem;
   }
+  h1 {
+    font-size: 3rem;
+  }
+  .typewriter {
+    margin-top: -13rem;
+    width: 20rem;
+  }
   /* main-video -------------------- */
-  .main-video iframe {
+  .main-video embed {
     /* width: 450px; */
     height: 280px;
   }
@@ -676,7 +737,7 @@ ul {
     max-width: 20rem;
   }
   /* main-video -------------------- */
-  .main-video iframe {
+  .main-video embed {
     /* width: 400px; */
     height: 220px;
   }
@@ -687,7 +748,7 @@ ul {
     font-size: 0.7rem;
   }
   /* main-video -------------------- */
-  .main-video iframe {
+  .main-video embed {
     /* width: 350px; */
     height: 200px;
   }
@@ -715,12 +776,19 @@ ul {
     width: 20rem;
     margin-top: -15rem;
   }
+  h1 {
+    font-size: 2rem;
+  }
+  .typewriter {
+    margin-top: -10rem;
+    width: 14rem;
+  }
   /* main-slider ------------------- */
   .main-slider {
     max-width: 15rem;
   }
   /* main-video -------------------- */
-  .main-video iframe {
+  .main-video embed {
     /* width: 300px; */
     height: 180px;
   }
@@ -756,5 +824,10 @@ ul {
   .header-animation {
     width: 15rem;
     margin-top: -12rem;
+  }
+  /* main-video -------------------- */
+  .main-video embed {
+    width: 95%;
+    height: 150px;
   }
 }
