@@ -505,7 +505,7 @@ ul {
   .holiday {
     margin: 0 1rem;
   }
-  holiday-content p {
+  .holiday-content p {
     margin-right: 2rem;
   }
   .wrapper {
